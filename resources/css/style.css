@@ -1,0 +1,152 @@
+/* universal */
+
+html {
+  font-size: 14px;
+}
+
+div img {
+  width: 100%;
+  height: auto;
+}
+
+.image-container {
+  opacity: 0.7;
+  transition: transform 0.3s;
+}
+
+.image-container:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+.imgBox {
+  overflow: hidden;
+}
+
+/* header */
+
+body {
+  font-family: 'Open Sans';
+  padding-top: 50px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #399bd1;
+  background-color: inherit;
+}
+
+/* jumbotron */
+
+.jumbotron-general {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+}
+
+.jumbotron-bike {
+  background-image: url('../images/jumbotron-bike.jpg');
+}
+
+.jumbotron-beer {
+  background-image: url('../images/jumbotron-beer.jpg');
+}
+
+.jumbotron-duffel {
+  background-image: url('../images/jumbotron-duffel.jpg');
+}
+
+.jumbotron-flowers {
+  background-image: url('../images/jumbotron-flowers.jpg');
+}
+
+.jumbotron h1 {
+  font-family: Monoton;
+  font-size: 7.1rem;
+  text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
+}
+
+.jumbotron h1, .jumbotron p {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+}
+
+.jumbotron a {
+  width: 11.4rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  margin-top: 2.8rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+}
+
+.jumbotron .btn:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+  background-color: #399bd1;
+}
+
+.jumbotron .btn:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/* featured-project */ /* projects */
+#featured-project h2, #projects h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+h3#categories {
+  color: #399bd1;
+}
+
+#featured-project h3, #projects h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#featured-project h2 {
+  margin-bottom: 20px;
+}
+
+#projects {
+  padding-bottom: 5.85rem;
+}
+
+@media (max-width: 768px) {
+  .col-sm-6 {
+      width: 50%;
+      float: left;
+  }
+}
+/* footer */
+#footer {
+  padding: 5.2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f3f3f3;
+}
+
+#footer p {
+  width: 42rem;
+}
